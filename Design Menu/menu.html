@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(241, 184, 254);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .header {
+            background: linear-gradient(rgb(138, 94, 249), rgb(222, 98, 250));
+            padding: 15px;
+            text-align: center;
+            color: aliceblue;
+        }
+        .quotes {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2.5em;
+            color: azure;
+            margin: 10px 0;
+        }
+        .menu {
+            text-align: center;
+            font-size: 2em;
+            color: white;
+            margin: 20px 0;
+        }
+        .menu-section {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu-section h2 {
+            color: rgb(138, 94, 249);
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+        }
+        .menu-item {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 320px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .menu-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .menu-item div {
+            text-align: left;
+            flex: 1;
+        }
+        .menu-item strong {
+            font-size: 1.1em;
+        }
+        .menu-item em {
+            color: rgb(138, 94, 249);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>EatforLife</h1>
+        <p class="quotes">A Feast for Your Senses!</p>
+    </div>
+    <p class="menu">MENU</p>
+
+    <!-- Appetizers -->
+    <div class="menu-section">
+        <h2>Appetizers</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="512px-2014_Bruschetta_The_Larder_Chiang_Mai.webp" alt="Bruschetta">
+                <div>
+                    <strong>Bruschetta</strong><br>
+                    Grilled bread topped with tomatoes, garlic, and basil. <br>
+                    <em>$8.00</em>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="stuffed-mushrooms.webp" alt="Stuffed Mushrooms">
+                <div>
+                    <strong>Stuffed Mushrooms</strong><br>
+                    Mushrooms filled with cheese and herbs. <br>
+                    <em>$10.00</em>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="garlic-bread.webp" alt="Garlic Bread">
+                <div>
+                    <strong>Garlic Bread</strong><br>
+                    Toasted bread with garlic butter. <br>
+                    <em>$5.00</em>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Courses -->
+    <div class="menu-section">
+        <h2>Main Courses</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="salmon.webp" alt="Grilled Salmon">
+                <div>
+                    <strong>Grilled Salmon</strong><br>
+                    Fresh salmon grilled to perfection with vegetables. <br>
+                    <em>$20.00</em>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="washington-dc-spaghetti-carbonara.webp" alt="Spaghetti Carbonara">
+                <div>
+                    <strong>Spaghetti Carbonara</strong><br>
+                    Classic Italian pasta with creamy sauce and bacon. <br>
+                    <em>$15.00</em>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="parmesan.webp" alt="Chicken Parmesan">
+                <div>
+                    <strong>Chicken Parmesan</strong><br>
+                    Breaded chicken breast with marinara and cheese. <br>
+                    <em>$18.00</em>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Desserts -->
+    <div class="menu-section">
+        <h2>Desserts</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="tiramisu.webp" alt="Tiramisu">
+                <div>
+                    <strong>Tiramisu</strong><br>
+                    Italian dessert with coffee-soaked ladyfingers. <br>
+                    <em>$7.00</em>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="cheesecake.webp" alt="Cheesecake">
+                <div>
+                    <strong>Cheesecake</strong><br>
+                    Creamy cheesecake with graham cracker crust. <br>
+                    <em>$6.00</em>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="chocolate-lava-cake.webp" alt="Chocolate Lava Cake">
+                <div>
+                    <strong>Chocolate Lava Cake</strong><br>
+                    Warm chocolate cake with a gooey center. <br>
+                    <em>$8.00</em>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
